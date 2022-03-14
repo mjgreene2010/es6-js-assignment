@@ -5,21 +5,11 @@ class Employee {
     this.storeNum = storeNum;
   }
 
-  addBook() {
-    return "added book";
-  }
-
-  deleteRequest() {
-    return "delete request";
-  }
-
-  updateBook() {
-    return "update book";
-  }
-
-  updateProfile() {
+  updateProfile(/*employee.id*/) {
     return "updated profile";
   }
 }
 
 export default Employee;
+
+//Book class will have add, update and delete books
